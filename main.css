@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #e15f41;
+}
+
+header .nav .nav-link.active {
+  background-color: white;
+  color: #e15f41;
+}
+
+header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+  color: white;
+}
+
+.section-title {
+  font-family: "Pacifico", cursive;
+}
+
+#sobre,
+#cardapio {
+  background-color: #ffeae6;
+}
+
+.text-colored {
+  color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+  background-color: #e15f41;
+  color: white;
+}
+
+.nav-cardapio .nav-link:hover {
+  color: #e15f41;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
